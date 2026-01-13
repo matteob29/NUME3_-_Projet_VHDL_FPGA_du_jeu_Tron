@@ -1,6 +1,6 @@
 # NUME3 - Projet VHDL : Jeu Tron
 
-Projet réalisé dans le cadre du module **NUME3 - Conception VHDL/FPGA** à l’**ENSEIRB-MATMECA**[cite: 458].
+Projet réalisé dans le cadre du module **NUME3 - Conception VHDL/FPGA** à l’**ENSEIRB-MATMECA**.
 
 **Auteurs :** Mattéo BINET   
 Aurélien BARTHERE
@@ -73,7 +73,7 @@ L'architecture est modulaire et s'articule autour d'un **Top Level** connectant 
 | `Tableau_init` | Initialise l'écran (bords verts, fond noir) au démarrage |
 | `Reg_In` | Synchronise les entrées boutons (buffer) pour éviter la métastabilité |
 | `Gest_freq` | Génère le signal `ce_fsm` à 200 Hz pour la vitesse du jeu |
-| `fsm_pos_J1/J2` | Gère la position actuelle/future et détecte les collisions pour chaque joueur[cite: 617, 618]. |
+| `fsm_pos_J1/J2` | Gère la position actuelle/future et détecte les collisions pour chaque joueur. |
 | `fsm_rw` | **Bloc central** : Arbitre les accès mémoire (Lecture/Écriture) vers le VGA. |
 | `Mux_3` | Multiplexe les coordonnées et couleurs vers le contrôleur VGA. |
 | `vga_bitmap` | Contrôleur VGA gérant la mémoire vidéo et l'affichage physique. |
